@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: auto;
 }
 
 body {
@@ -13,11 +13,13 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+
 }
 
 .header h1 {
-    display: inline-block;
+    display: contents;
     font-size: 48px;
+    justify-content: end;
 }
 
 .header h1 .seo {
@@ -26,20 +28,32 @@ body {
 
 .header div {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 100px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 .header div ul {
-    list-style-type: none;
-}
+        position: absolute;
+        margin: 20px auto;
+        width: 100vw;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+    
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
+
+.header div ul {
+        position: absolute;
+        margin: 20px auto;
+        width: 100vw;
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
 
 a {
     color: #ffffff;
