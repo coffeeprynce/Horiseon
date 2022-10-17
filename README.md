@@ -26,4 +26,4 @@ THEN I find a concise, descriptive title
 
 Link to the deployed application: https://coffeeprynce.github.io/Horiseon/
 
-![Horiseonsite!](/Users/kylenguyen/bootcamp/Horiseon/assets/images/Screen Shot 2022-10-17 at 5.32.07 PM.png)
+![Horiseonsite!](assets/images/Screenshot.png)
