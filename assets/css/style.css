@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*sets up a nice header with font colors and span*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,7 +54,7 @@ body {
         align-items: flex-end;
       }
 
-
+/*sets the anchor and paragraph details*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -64,6 +64,7 @@ p {
     font-size: 16px;
 }
 
+/*This sets the background image for the banner of the page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -72,7 +73,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*position the icons*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -82,7 +83,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*sets the sizes,positions and colors etc. for all the boxes that make up the bulk content of the page*/
 .content {
     width: 75%;
     display: inline-block;
@@ -174,7 +175,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*image sizing*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -201,7 +202,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*footer settings at the bottom of the page*/
 .footer {
     padding: 30px;
     clear: both;
